@@ -13,4 +13,5 @@ local function printTimer(seconds) --timer
     end
 end
 
+--want a function to get added? email me: SietseDEV.LuaFunctions@mail.com
 --under here needs to be your code
