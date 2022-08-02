@@ -2,4 +2,5 @@ here are just all the functions that this adds
 
 ------------------------------------------------------------
 
-wait()
+wait() - does what it says
+printTimer() - a timer every second in prints how long is left

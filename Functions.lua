@@ -6,4 +6,11 @@ local function wait(duration)
     repeat until os. time() > start + duration
 end
 
+local function printTimer(seconds)
+    for i=1,seconds do
+        print(seconds - i)
+        wait(1)
+    end
+end
+
 --under here needs to be your code
