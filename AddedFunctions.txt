@@ -3,4 +3,4 @@ here are just all the functions that this adds
 ------------------------------------------------------------
 
 wait() - does what it says
-printTimer() - a timer every second in prints how long is left
+printTimer() - a timer every second it prints how long much time left
