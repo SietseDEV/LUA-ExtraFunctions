@@ -13,5 +13,15 @@ local function printTimer(seconds) --timer
     end
 end
 
+local function ClearOutput() --this clears the output may give a error on first try
+    if not os.execute("clear") then
+        os.execute("cls")
+    elseif not os.execute("cls") then
+        for i = 1,25 do
+            print("\n\n")
+        end
+    end
+end
+
 --want a function to get added? email me: SietseDEV.LuaFunctions@mail.com
 --under here needs to be your code
